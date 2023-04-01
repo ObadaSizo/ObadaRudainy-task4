@@ -1,0 +1,63 @@
+.title {
+    font-size: 15px !important;
+}
+.content .head {
+    padding: 64px 0 32px 0;
+}
+.pb-64{
+    padding: 0 0 64px;
+}
+.content .sec .company-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+} 
+.content .sec .company-section i {
+    font-size: 32px;
+    color: #938C8C;
+    cursor: pointer;
+}
+.content .sec .company-section i:hover {
+    color:#FF8500;
+    transform: scale(1.05);
+}
+.content .sec .company-section .comp-name {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    width: 90%;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.content .sec .company-section .comp { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    max-width: 800px;
+    overflow: hidden;
+} 
+.content .sec .company-section span {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282828;
+} 
+@media (max-width: 767px){
+    .content .sec .company-section .comp img {
+        max-width: 62px;
+    }
+    .content .sec .company-section i {
+        font-size: 25px;
+    }
+    .content .sec .company-section .comp-name {
+        height: 100px;
+    }
+    .content .sec .company-section span {
+        font-size: 13px;
+    }
+}

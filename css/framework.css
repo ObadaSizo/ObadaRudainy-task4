@@ -1,0 +1,24 @@
+.d-grid {
+    display: grid;
+}
+.col {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.p-0 {
+    padding: 0 !important;
+}
+.pb-32 {
+    padding-bottom: 32px;
+}
+.pb-64 {
+    padding-bottom: 64px;
+}
+.m-0 {
+    margin: 0;
+}
+.h-fit {
+    height: fit-content;
+}
+.h-fit-cards {
+    min-height: 250px !important;
+}
